@@ -6,8 +6,6 @@ export const todoList = new TodoList();
 const tarea = new Todo('aprender javascript');
 
 todoList.nuevoTodo(tarea);
-
-console.log(todoList);
 tarea.completado = false;
 
 crearTodoHtml(tarea);
